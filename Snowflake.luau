@@ -1,3 +1,10 @@
+local baseplate = workspace:FindFirstChild("Baseplate")
+if baseplate then
+    baseplate.BrickColor = BrickColor.new("Institutional white")
+    baseplate.Material = Enum.Material.Snow
+end
+
+
 -- Beaucoup plus de neige + loop massif
 
 local TweenService = game:GetService("TweenService")
